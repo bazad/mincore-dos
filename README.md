@@ -10,6 +10,8 @@ amount of memory and then hang (macOS) or crash (iOS).
 This exploit has been confirmed to work on macOS High Sierra 10.13.1 Beta 17B25c and iOS 11.1 Beta
 15B5066f.
 
+I reported this bug to Apple on October 3, 2017. Apple does not consider this a security issue.
+
 ### The vulnerability
 
 Here is the code of `mincore()` on [macOS High Sierra 10.13][mincore source]:
